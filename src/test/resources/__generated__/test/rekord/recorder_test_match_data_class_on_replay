@@ -1,0 +1,7 @@
+{
+  "@type": "test.rekord.Fixtures$Tester",
+  "value": {
+    "@type": "java.lang.String",
+    "value": "replayed"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@type": "test.rekord.Fixtures$TesterNested",
+  "value": {
+    "@type": "test.rekord.Fixtures$TesterBd",
+    "value": {
+      "@type": "java.math.BigDecimal",
+      "value": 12.34
+    }
+  }
+}

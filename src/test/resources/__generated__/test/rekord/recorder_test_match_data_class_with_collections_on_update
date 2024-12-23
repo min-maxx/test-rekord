@@ -1,0 +1,62 @@
+{
+  "@type": "test.rekord.Fixtures$TesterCollection",
+  "array": {
+    "@type": "java.lang.Object[]",
+    "value": [
+      {
+        "@type": "test.rekord.Fixtures$Tester",
+        "value": {
+          "@type": "java.lang.String",
+          "value": "array"
+        }
+      },
+      {
+        "@type": "java.lang.String",
+        "value": "Amazon"
+      },
+      {
+        "@type": "java.math.BigDecimal",
+        "value": 12.34
+      },
+      {
+        "@type": "java.time.LocalDateTime",
+        "value": "2024-12-18T10:02:44.179"
+      }
+    ]
+  },
+  "list": {
+    "@type": "java.util.Arrays$ArrayList",
+    "value": [
+      {
+        "@type": "test.rekord.Fixtures$Tester",
+        "value": {
+          "@type": "java.lang.String",
+          "value": "array"
+        }
+      },
+      {
+        "@type": "java.lang.String",
+        "value": "Amazon"
+      },
+      {
+        "@type": "java.math.BigDecimal",
+        "value": 12.34
+      },
+      {
+        "@type": "java.time.LocalDateTime",
+        "value": "2024-12-18T10:02:44.180"
+      }
+    ]
+  },
+  "map": {
+    "@type": "java.util.LinkedHashMap",
+    "Tester(value\u003darray)": {
+      "@type": "java.lang.String",
+      "value": "Amazon"
+    },
+    "12.34": {
+      "@type": "java.time.LocalDateTime",
+      "value": "2024-12-18T10:02:44.180"
+    }
+  }
+}

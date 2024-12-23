@@ -1,0 +1,34 @@
+{
+  "@type": "java.util.Arrays$ArrayList",
+  "value": [
+    {
+      "@type": "test.rekord.Fixtures$Tester",
+      "value": {
+        "@type": "java.lang.String",
+        "value": "any"
+      }
+    },
+    {
+      "@type": "test.rekord.Fixtures$TesterSealed$Error",
+      "code": {
+        "@type": "java.lang.Integer",
+        "value": 4
+      }
+    },
+    {
+      "@type": "test.rekord.Fixtures$Triangle",
+      "width": {
+        "@type": "java.lang.Integer",
+        "value": 3
+      },
+      "height": {
+        "@type": "java.lang.Integer",
+        "value": 3
+      },
+      "area": {
+        "@type": "java.lang.Double",
+        "value": 4.5
+      }
+    }
+  ]
+}

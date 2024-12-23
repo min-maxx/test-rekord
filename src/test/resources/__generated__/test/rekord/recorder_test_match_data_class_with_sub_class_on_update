@@ -1,0 +1,53 @@
+{
+  "@type": "test.rekord.Fixtures$TesterSub",
+  "sealed": {
+    "@type": "java.util.Arrays$ArrayList",
+    "value": [
+      {
+        "@type": "test.rekord.Fixtures$TesterSealed$Success",
+        "data": {
+          "@type": "java.lang.String",
+          "value": "OK"
+        }
+      },
+      {
+        "@type": "test.rekord.Fixtures$TesterSealed$Error",
+        "code": {
+          "@type": "java.lang.Integer",
+          "value": 6
+        }
+      }
+    ]
+  },
+  "inheritance": {
+    "@type": "java.util.Arrays$ArrayList",
+    "value": [
+      {
+        "@type": "test.rekord.Fixtures$Triangle",
+        "width": {
+          "@type": "java.lang.Integer",
+          "value": 2
+        },
+        "height": {
+          "@type": "java.lang.Integer",
+          "value": 3
+        },
+        "area": {
+          "@type": "java.lang.Double",
+          "value": 3.0
+        }
+      },
+      {
+        "@type": "test.rekord.Fixtures$Square",
+        "width": {
+          "@type": "java.lang.Integer",
+          "value": 5
+        },
+        "area": {
+          "@type": "java.lang.Double",
+          "value": 25.0
+        }
+      }
+    ]
+  }
+}

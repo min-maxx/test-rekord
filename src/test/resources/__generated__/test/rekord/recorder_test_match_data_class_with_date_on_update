@@ -1,0 +1,19 @@
+{
+  "@type": "test.rekord.Fixtures$TesterDate",
+  "date": {
+    "@type": "java.util.Date",
+    "value": "2024-12-18 10:02:20"
+  },
+  "dateTime": {
+    "@type": "java.time.LocalDateTime",
+    "value": "2024-12-23T10:02:20.794"
+  },
+  "zonedDate": {
+    "@type": "java.time.ZonedDateTime",
+    "value": "2024-12-18T04:02:20.796-05:00[America/New_York]"
+  },
+  "instant": {
+    "@type": "java.time.Instant",
+    "value": "2024-12-18T09:02:00.796076Z"
+  }
+}
